@@ -1,0 +1,41 @@
+# Data files (too large for git)
+data/maf/
+data/expression/
+data/cnv/
+data/methylation/
+data/mirna/
+data/clinical/*.xml
+*.maf
+*.maf.gz
+merged_maf.tsv
+
+# Results (regenerable)
+results/*.tsv
+results/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+thyroid_cancer/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
